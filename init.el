@@ -1,4 +1,5 @@
 ;; -*- coding: utf-8 -*-
+(package-initialize)
 
 (setq mail-user-agent 'gnus-user-agent)
 (setq-default bidi-display-reordering nil)
@@ -19,7 +20,11 @@
 
 (push "~/.emacs.d/rc" load-path)
 (push "~/.emacs.d/site-packages" load-path)
-;;(load "~/.emacs.d/eassist.el")
+
+;; platform specific stuff
+(if (string= "darwin" system-type)
+    (load "emacs-rc-macos.el"))
+;; TODO: gnu/linux specific
 
 (load "emacs-rc-packages.el")
 (load "emacs-rc-helm.el")
