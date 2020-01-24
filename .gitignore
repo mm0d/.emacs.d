@@ -14,5 +14,6 @@ elpa
 *.~undo-tree
 
 # Misc
+.lsp-session*
 network-security.data
 recentf

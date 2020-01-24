@@ -27,6 +27,7 @@
 ;; TODO: gnu/linux specific
 
 (load "emacs-rc-packages.el")
+(load "emacs-rc-yasnippet.el")
 (load "emacs-rc-helm.el")
 (load "emacs-rc-lsp.el")
 (load "emacs-rc-company.el")
