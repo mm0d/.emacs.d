@@ -1,8 +1,6 @@
 ;;; emacs-rc-ccmode.el --- 
 
 (require 'cc-mode)
-(require 'eassist)
-
 ;;(require 'imenu)
 
 ;; customisation of cc-mode
@@ -27,8 +25,6 @@
   ;; local keys
   ;; (local-set-key [delete]  'delete-char)
   ;; (local-set-key [return] 'newline-and-indent)
-  (local-set-key (kbd "M-[") 'eassist-switch-h-cpp)
-  (local-set-key (kbd "M-]") 'eassist-list-methods)
 
   (define-key c-mode-base-map "\C-m" 'newline-and-indent)
 
