@@ -8,3 +8,4 @@
 (add-hook 'lsp-mode-hook 'lsp-ui-mode)
 (add-hook 'c++-mode-hook 'lsp)
 (add-hook 'js2-mode-hook 'lsp)
+(add-hook 'dart-mode-hook 'lsp)
