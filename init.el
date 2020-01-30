@@ -68,6 +68,7 @@
 
 (setq-default font-lock-maximum-decoration t)
 (global-font-lock-mode t)
+(global-linum-mode t)
 
 (setq-default show-trailing-whitespace 'nil)
 (blink-cursor-mode nil)
