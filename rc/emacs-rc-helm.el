@@ -10,6 +10,7 @@
 (setq helm-buffers-fuzzy-matching t
       helm-recentf-fuzzy-match    t)
 
+(global-set-key (kbd "M-]") 'helm-imenu)
 (global-set-key (kbd "M-/") 'helm-dabbrev)
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
 (global-set-key (kbd "C-x b") 'helm-mini)
